@@ -1,0 +1,397 @@
+* {
+    font-family: 'Microsoft YaHei', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    /*margin-bottom: 15rem;*/
+    background: #fff;
+}
+.fl{
+    float:left;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.container .title{
+    width: 96%;
+    height: 35px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding: 10px 2% 0px 2%;
+    border-bottom: 1px solid #d6d6d6;
+}
+.container textarea{
+    width: 96%;
+    resize: none;
+    height: 120px;
+    padding: 10px 2% 0px 2%;
+    margin-bottom: 15px;
+    line-height: 150%;
+    font-size: 15px;
+    text-align: left;
+    overflow: auto;
+    color: #333;
+    letter-spacing: .5px;
+}
+.tab{
+    width: 100%;
+    padding-bottom:15px;
+    /*padding: 0 15px 10px 15px;*/
+}
+.tab .submit{
+    float: right;
+    margin-right: 15px;
+    height: 26px;
+    width: 50px;
+    background: #17b5ee;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+}
+.tab>div{
+    margin-left: 15px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #000000;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 10px;
+    border-color: #949494;
+    font-size: .5rem;
+    padding: 2px 8px;
+}
+.tab>div img{
+    width: 15px;
+    vertical-align: middle;
+}
+.tab>div a{
+    color: #949494;
+}
+.cf{
+    clear: both;
+}
+.menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*padding: .3rem 0;*/
+    /*background: #f5f5f5;*/
+    border: 1px solid #f5f5f5;
+}
+.menu > div {
+    font-size: .7rem;
+    float: left;
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    color: #949494;
+    background: #fff;
+}
+.menu .active {
+    color: #28b6ec;
+}
+.menu > div img {
+    display: block;
+    width: 1.5rem;
+    margin: 0 auto;
+}
+.load{
+    margin: 10px 0px;
+    text-align: center;
+    color: #858585;
+    font-size: .8rem;
+}
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  _zoom: 1;
+}
+* + html .clearfix {
+  overflow: auto;
+}
+/*qq表情*/
+.post-qq-face-all {
+    width: 100%;
+    height: 185px;
+    padding-top: 10px;
+}
+#div-qqfaces{
+    background: #fff;
+}
+.post-qq-face {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow-y: scroll;
+}
+.post-qq-face span {
+    width: 14.28%;
+    padding: 5px 0;
+    text-align: center;
+}  
+.qqface-img {
+    background: url(../images/qqface.jpg) no-repeat left top;
+    background-size: 100%;
+    width: 29px;
+    height: 29px;
+}
+.post-qq-face span a {
+    display: inline-block;
+}
+.fun{
+    float: right;
+}
+.facepic{
+    float: left;
+}
+.facepic img{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+.pay{
+    padding: 10px;
+    font-size: .8rem;
+}
+/*发帖图片*/
+.post-wrap-pic-select {
+    min-width: 320px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 7px;
+}
+.post-wrap-pic-select li {
+    width: 22.6%;
+    max-height: 80px;
+    margin: 1%;
+    overflow: hidden;
+}
+.post-wrap-pic-select i {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: rgba(0,0,0,.5) url(../images/post-big-pic-03.png) no-repeat 0 -16px;
+    background-size: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.img_loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.img_upload_loading {
+    width: 50%;
+    margin: 25%;
+}
+.blank{
+    background: #696363;
+}
+.voice-post{
+    width:50px;
+    height:50px; 
+    background-color:#F00; 
+    border-radius:25px;
+    margin: 0 auto;
+}
+.voice-post span{
+    height:50px; 
+    line-height:50px; 
+    display:block; 
+    color:#FFF; 
+    text-align:center;
+}
+.post-voice-box-rp {
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    border-radius: 4px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #EFEFEF;
+    margin-left: 10px;
+}
+.post-rp-voice-time {
+    line-height: 37px;
+    font-size: 14px;
+    color: #878787;
+    float: left;
+    margin-left: 7px;
+}
+.post-voice-box-pause {
+    background: url('../images/voiceplaying.png') no-repeat;
+    background-size: 22px 22px;
+    margin: 9px 0 0 10px;
+    width: 22px;
+    height: 22px;
+}
+.post-voice-close {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.5) url(../images/post-big-pic-03.png) no-repeat 0 -17px;
+    background-size: 100%;
+    top: -6px;
+    right: -6px;
+}
+.post-voice-wrap{
+    text-align: center;
+    height: 250px;
+}
+.cancel-btn{
+    color:red;
+    text-align: right;
+    font-size: .8rem;
+    padding: 10px;
+}
+.show-voice{
+    width: 100px;
+    border: 1px solid grey;
+    height: 25px;
+    /* padding: 10px; */
+    background: #F7F5F5;
+    border-radius: 5px;
+    margin-left: 10px;
+    float: left;
+}
+.show-voice img{
+    width: 1rem;
+}
+.show-voice-btn{
+    width: 50px;
+    border: 1px solid grey;
+    height: 30px;
+}
+.voice-cancel{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: rgba(0,0,0,.5) url(../images/post-big-pic-03.png) no-repeat 0 -16px;
+    background-size: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+#pointNumDiv input{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+/*同心圆效果*/
+.framehovertree {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    border: 1px solid white;
+    background-color: white;
+}
+.centerhovertree {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 999;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+}
+
+/*悬赏*/
+.reward-cancel{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: rgba(0,0,0,.5) url(../images/post-big-pic-03.png) no-repeat 0 -16px;
+    background-size: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+/*蒙版*/
+.mask-ui {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
+    display: none;
+}
+.post-reward {
+    /* height: 100px; */
+    width: 90%;
+    margin: -60% 5% 30% 5%;
+    z-index: 4;
+    text-align: center;
+    background: #fff;
+    /*padding: 20px;*/
+    position: absolute;
+    display: none;
+}
+.award-btn-cancel{
+    font-size: .7rem;
+    background: #fff;
+    color: #fff;
+    padding: 15px;
+    width: 50%;
+    float: left;
+    color: black;
+    border-top: 1px solid #E0DBDB;
+    border-right: 1px solid #E0DBDB;
+}
+.award-btn-ok {
+    font-size: .7rem;
+    background: #fff;
+    color: #fff;
+    padding: 15px;
+    width: 50%;
+    float: left;
+    /* border-top: 1px solid grey; */
+    color: black;
+    border-top: 1px solid #E0DBDB;
+}
+/*btn-group*/
+.btn-group{
+    background: #fff;
+}
+
+.btn-group-child{
+    width:2rem;
+    position: absolute;
+    display: none;
+}
